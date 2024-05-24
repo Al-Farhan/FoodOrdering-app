@@ -10,7 +10,7 @@ export default function TabOneScreen() {
 
       <Image source={{uri: product.image}} style={styles.image} />
 
-      <Text style={styles.title}>{product.name}</Text>
+      <Text style={styles.title}>{product.name} - Farhan</Text>
       <Text style={styles.price}>₹{product.price * 80}</Text>
     </View>
   );
